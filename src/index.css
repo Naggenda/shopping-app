@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container{
+  padding: 30px 85px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.logo-top{
+  width: 20%;
+  align-self: center;
+}
+.btn-add input{
+  width: 50px;
+  height: 30px;
+  border: none;
+  background: lightgray;
+}
+.logo{
+  height: 20px;
+  
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  width: 60%;
+}
+
+.nav-items > li {
+  padding: 10px;
+  color: gray;
+}
+
+.cart{
+  list-style: none;
+  display: flex;
+  width: 20%;
+}
+
+.cart img{
+  width: 35px;
+}
+
+.cart > li {
+  padding: 10px;
+  color: gray;
+}
+
+.btn-left{
+  background: none repeat scroll 0 0 #444;
+    font-size: 13px;
+    padding: 0 4px;
+    position: absolute;
+    right: 14px;
+    top: 21px;
+    width: 14px;
+    height: 15.5px;
+    line-height: 15px;
+}
+
+
+.nav{
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description{
+  width: 50%;
+}
+
+.description h2{
+  font-size: xxx-large;
+  margin-block-start: 20px;
+}
+
+.description p{
+  line-height: 30px;
+  color: gray;
+}
+
+.display{
+  display: flex;
+}
+.img-main{
+  width: 100%;
+    border-radius: 8px;
+}
+.image-side{
+  width: 40%;
+}
+
+.sub-img{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-sub{
+  width: 20%;
+    border-radius: 8px;
+}
+h4{
+  margin: 0px 20px 0 0;
+}
+
+small{
+  font-variant-caps: all-petite-caps;
+  color: tomato;
+  font-weight: 900;
+  font-size: large;
+}
+
+span small{
+  text-decoration: line-through;
+  color: gray;
+  font-weight: 300;
+}
+
+.div-btn{
+  display: flex;
+}
+
+.cart-btn{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: tomato;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0px 10px 0 0;
+}
+
+
+.btn-add{
+    background-color: lightgray;
+    width: 30%;
+    text-align: center;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0px 10px 0 0;
+}
+
+.btn-rgt{
+  width: 50%;
+  background: tomato;
+}
+
+
+.card{
+  padding: 20px 20px;
+  text-align: left;
+  background: teal;
+  border-radius: 8px;
+}
+
+.side{
+  justify-content: space-between;
+  display: flex;
+}
