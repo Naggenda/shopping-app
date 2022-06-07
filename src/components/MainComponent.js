@@ -53,9 +53,9 @@ function MainComponent(){
         <div className="div-btn">
         
           <div className="btn-add">
-             <button onClick={decrement}><img src={minus} alt="minus" /></button>
+             <button onClick={decrement} className="btn-click"><img src={minus} alt="minus" /></button>
               <p>{input}</p>
-             <button onClick={increment}><img src={add} alt="add" /></button>
+             <button onClick={increment} className="btn-click"><img src={add} alt="add" /></button>
              
           </div>
 
