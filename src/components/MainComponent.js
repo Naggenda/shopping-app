@@ -2,13 +2,14 @@
 import React, {useState} from 'react';
 
 // import { ReactComponent as img } from './image-product-1.jpg';
-import img from '../image-product-1.jpg';
-import img1 from '../images/image-product-1-thumbnail.jpg';
-import img2 from '../images/image-product-2-thumbnail.jpg';
-import img3 from '../images/image-product-3-thumbnail.jpg';
-import img4 from '../images/image-product-4-thumbnail.jpg';
+// import img from '../image-product-1.jpg';
+// import img1 from '../images/image-product-1-thumbnail.jpg';
+// import img2 from '../images/image-product-2-thumbnail.jpg';
+// import img3 from '../images/image-product-3-thumbnail.jpg';
+// import img4 from '../images/image-product-4-thumbnail.jpg';
 import minus from '../images/icon-minus.svg';
-import add from '../images/icon-plus.svg'
+import add from '../images/icon-plus.svg';
+import Imagerender from '../components/Imagerender';
 
 
 function MainComponent(){
@@ -23,16 +24,8 @@ function MainComponent(){
     setCounter((prev) => prev - 1)
   }
     return(
-        <div className="nav">
-           <div className="image-side">
-            <img src={img} alt="mine" className="img-main" />
-               <div className="sub-img">
-                 <img src={img1} alt="mine" className="img-sub" />
-                 <img src={img2} alt="mine" className="img-sub" />
-                 <img src={img3} alt="mine" className="img-sub" />
-                 <img src={img4} alt="mine" className="img-sub" />
-               </div>
-           </div>
+        <div className="main-content">
+           <Imagerender />
            <div className="description">
               <small>Sneaker Company</small>
               <h2>Fall Limited Edition Sneakers</h2>

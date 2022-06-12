@@ -94,6 +94,41 @@ code {
   align-items: center;
 }
 
+.main-content{
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image{
+  position: relative;
+}
+
+.img-main{
+  position: absolute;
+  top: -140px;
+}
+
+.sub-img{
+  position: relative;
+  bottom: -320px;
+}
+
+/* .img-sub{
+  position: absolute;
+  bottom: -200px;
+} */
+
+/* .image-side{
+  position: relative;
+}
+.image{
+  position: absolute;
+  top: 0;
+} */
+
+
 .description{
   width: 50%;
 }
