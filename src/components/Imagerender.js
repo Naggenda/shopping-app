@@ -20,10 +20,16 @@ const Imagerender = () => {
     ground: true
   });
   const onClickHandler = (order) => {
-    setImageClicked((prevState) => ({
-      ...prevState,
-      [order]: !prevState[order]
-    }));
+    const resetImages = {
+      first: false,
+      second: false,
+      third: false,
+      ground: false
+    }
+    setImageClicked({
+      ...resetImages,
+      [order]: true
+    });
   };
   return (
     <div className="image-side">
@@ -42,7 +48,7 @@ const Imagerender = () => {
           
         <img src={img3} alt="sub-img" onClick={() => onClickHandler("second")} className="ground img-sub" />
           
-        <img src={img4} alt="sub-img" alt="fourth" onClick={() => onClickHandler("third")} className="ground img-sub" />
+        <img src={img4} alt="fourth" onClick={() => onClickHandler("third")} className="ground img-sub" />
           
       </div>
     </div>

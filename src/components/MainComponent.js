@@ -1,12 +1,5 @@
 
 import React, {useState} from 'react';
-
-// import { ReactComponent as img } from './image-product-1.jpg';
-// import img from '../image-product-1.jpg';
-// import img1 from '../images/image-product-1-thumbnail.jpg';
-// import img2 from '../images/image-product-2-thumbnail.jpg';
-// import img3 from '../images/image-product-3-thumbnail.jpg';
-// import img4 from '../images/image-product-4-thumbnail.jpg';
 import minus from '../images/icon-minus.svg';
 import add from '../images/icon-plus.svg';
 import Imagerender from '../components/Imagerender';
